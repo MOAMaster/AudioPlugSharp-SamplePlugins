@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FA208C94-900E-3208-9FE3-70BBF182E7EB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VSTPlugins2019\vst3sdk\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VSTPlugins2019\vst3sdk\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/VSTPlugins2019/vst3sdk/vst3sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VSTPlugins2019/vst3sdk/vst3sdk -BD:/VSTPlugins2019/vst3sdk/vstbuild --check-stamp-file D:/VSTPlugins2019/vst3sdk/vstbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_Bundle.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_Global.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;D:\VSTPlugins2019\vst3sdk\vstbuild\CMakeFiles\3.22.1\CMakeCCompiler.cmake;D:\VSTPlugins2019\vst3sdk\vstbuild\CMakeFiles\3.22.1\CMakeCXXCompiler.cmake;D:\VSTPlugins2019\vst3sdk\vstbuild\CMakeFiles\3.22.1\CMakeRCCompiler.cmake;D:\VSTPlugins2019\vst3sdk\vstbuild\CMakeFiles\3.22.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VSTPlugins2019\vst3sdk\vstbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/VSTPlugins2019/vst3sdk/vst3sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VSTPlugins2019/vst3sdk/vst3sdk -BD:/VSTPlugins2019/vst3sdk/vstbuild --check-stamp-file D:/VSTPlugins2019/vst3sdk/vstbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_Bundle.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_Global.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;D:\VSTPlugins2019\vst3sdk\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;D:\VSTPlugins2019\vst3sdk\vstbuild\CMakeFiles\3.22.1\CMakeCCompiler.cmake;D:\VSTPlugins2019\vst3sdk\vstbuild\CMakeFiles\3.22.1\CMakeCXXCompiler.cmake;D:\VSTPlugins2019\vst3sdk\vstbuild\CMakeFiles\3.22.1\CMakeRCCompiler.cmake;D:\VSTPlugins2019\vst3sdk\vstbuild\CMakeFiles\3.22.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VSTPlugins2019\vst3sdk\vstbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\ZERO_CHECK.vcxproj">
+      <Project>{E1BBBA71-F121-3125-B2A3-B0D2C0B540DF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\adelay\adelay.vcxproj">
+      <Project>{4DE86EED-E37E-3984-A203-FDA24A8D716B}</Project>
+      <Name>adelay</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\again\again.vcxproj">
+      <Project>{BF32A55A-4E0F-3164-83B4-38EDBB855E6A}</Project>
+      <Name>again</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\again\againsimple.vcxproj">
+      <Project>{5E026349-52CA-3CFD-BD9B-0C5191349DB8}</Project>
+      <Name>againsimple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\base\base.vcxproj">
+      <Project>{D8AED9C5-75E0-3C82-B05E-8D5DA5931C39}</Project>
+      <Name>base</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\channelcontext\channelcontext.vcxproj">
+      <Project>{4C6A7A0A-EED0-3987-9BB2-EDA07309F9C5}</Project>
+      <Name>channelcontext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst-hosting\editorhost\editorhost.vcxproj">
+      <Project>{18944F24-04A0-3739-857B-49D7582EBCDA}</Project>
+      <Name>editorhost</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\hostchecker\hostchecker.vcxproj">
+      <Project>{3F778A2F-7D2D-3ED9-A945-32CB2C82A6C4}</Project>
+      <Name>hostchecker</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\legacymidiccout\legacymidiccout.vcxproj">
+      <Project>{53B7331A-E4BD-3B97-A21A-5BB1F812FC44}</Project>
+      <Name>legacymidiccout</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\mda-vst3\mda-vst3.vcxproj">
+      <Project>{36275DF6-0A55-3AA6-BAFD-F459736632F6}</Project>
+      <Name>mda-vst3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\note_expression_synth\noteexpressionsynth.vcxproj">
+      <Project>{65977FD2-8834-38A4-BD3D-DF255068287C}</Project>
+      <Name>noteexpressionsynth</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\note_expression_text\noteexpressiontext.vcxproj">
+      <Project>{1AD25A1B-2C13-3F10-8216-465698B37F90}</Project>
+      <Name>noteexpressiontext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\panner\panner.vcxproj">
+      <Project>{109DA30C-4824-3D68-852D-25896906EBA6}</Project>
+      <Name>panner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\pitchnames\pitchnames.vcxproj">
+      <Project>{3EE9F44B-7894-325D-AD6E-C68A3839A738}</Project>
+      <Name>pitchnames</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\pluginterfaces\pluginterfaces.vcxproj">
+      <Project>{6B825D33-7322-38B9-B22B-20686EB4DC43}</Project>
+      <Name>pluginterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\prefetchablesupport\prefetchablesupport.vcxproj">
+      <Project>{DE7B3237-1832-3128-8128-A06CFA7B7049}</Project>
+      <Name>prefetchablesupport</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\programchange\programchange.vcxproj">
+      <Project>{17466E55-8D81-3B94-B642-3ECFC0A1B0D0}</Project>
+      <Name>programchange</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\sdk.vcxproj">
+      <Project>{D41748F0-17B9-3520-840C-AB006A21FFD8}</Project>
+      <Name>sdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\sdk_common.vcxproj">
+      <Project>{381DC9DA-B6D1-3583-AB4E-A9C34E99D143}</Project>
+      <Name>sdk_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\sdk_hosting.vcxproj">
+      <Project>{C51E9F00-D943-37C8-AA2A-E86AE75678A7}</Project>
+      <Name>sdk_hosting</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst\syncdelay\syncdelay.vcxproj">
+      <Project>{9B5EA628-73EF-367D-976B-53B4F6A4D98E}</Project>
+      <Name>syncdelay</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\VSTGUI.build\tools\uidesccompressor\uidesccompressor.vcxproj">
+      <Project>{0AEC4BA1-50AC-3DD3-905A-6E73494828B8}</Project>
+      <Name>uidesccompressor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\public.sdk\samples\vst-hosting\validator\validator.vcxproj">
+      <Project>{A7B5AED5-448D-3216-B24C-3577CC2D9EC7}</Project>
+      <Name>validator</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\VSTGUI.build\lib\vstgui.vcxproj">
+      <Project>{290FCDFA-7B1B-3836-8CC9-EAB154AF9945}</Project>
+      <Name>vstgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\vstgui_support.vcxproj">
+      <Project>{558E9CA4-3DC5-375C-B7AC-EBA1ACD582DA}</Project>
+      <Name>vstgui_support</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSTPlugins2019\vst3sdk\vstbuild\VSTGUI.build\uidescription\vstgui_uidescription.vcxproj">
+      <Project>{32775E22-F1E7-3118-BDE7-C1436E63247A}</Project>
+      <Name>vstgui_uidescription</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

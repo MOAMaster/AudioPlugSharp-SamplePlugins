@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WPFExample": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\Cakewalk\\Cakewalk Core\\Cakewalk.exe"
+    }
+  }
+}

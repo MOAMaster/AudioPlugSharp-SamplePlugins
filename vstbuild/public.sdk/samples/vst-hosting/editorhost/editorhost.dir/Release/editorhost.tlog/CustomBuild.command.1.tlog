@@ -1,0 +1,10 @@
+^D:\VSTPLUGINS2019\VST3SDK\VST3SDK\PUBLIC.SDK\SAMPLES\VST-HOSTING\EDITORHOST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VSTPlugins2019/vst3sdk/vst3sdk -BD:/VSTPlugins2019/vst3sdk/vstbuild --check-stamp-file D:/VSTPlugins2019/vst3sdk/vstbuild/public.sdk/samples/vst-hosting/editorhost/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

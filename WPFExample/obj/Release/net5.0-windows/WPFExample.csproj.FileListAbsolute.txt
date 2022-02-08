@@ -1,0 +1,17 @@
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\bin\Release\net5.0-windows\WPFExample.deps.json
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\bin\Release\net5.0-windows\WPFExample.dll
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\bin\Release\net5.0-windows\ref\WPFExample.dll
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\bin\Release\net5.0-windows\WPFExample.pdb
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\bin\Release\net5.0-windows\AudioPlugSharp.dll
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\bin\Release\net5.0-windows\AudioPlugSharpWPF.dll
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\bin\Release\net5.0-windows\AudioPlugSharpWPF.pdb
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\bin\Release\net5.0-windows\AudioPlugSharp.pdb
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\obj\Release\net5.0-windows\WPFExample.csproj.AssemblyReference.cache
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\obj\Release\net5.0-windows\WPFExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\obj\Release\net5.0-windows\WPFExample.AssemblyInfoInputs.cache
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\obj\Release\net5.0-windows\WPFExample.AssemblyInfo.cs
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\obj\Release\net5.0-windows\WPFExample.csproj.CoreCompileInputs.cache
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\obj\Release\net5.0-windows\WPFExample.csproj.CopyComplete
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\obj\Release\net5.0-windows\WPFExample.dll
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\obj\Release\net5.0-windows\ref\WPFExample.dll
+D:\VSTPlugins2019\vst3sdkRev\WPFExample\obj\Release\net5.0-windows\WPFExample.pdb

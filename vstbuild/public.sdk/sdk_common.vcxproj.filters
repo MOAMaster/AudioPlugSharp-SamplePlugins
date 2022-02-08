@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\common\commoniids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\common\openurl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\common\systemclipboard_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\common\threadchecker_linux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\common\threadchecker_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\vst\vstpresetfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\common\openurl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\common\systemclipboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\common\threadchecker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\vst\vstpresetfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B13CB634-CCD1-314C-BEC9-E77E403BD3F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CAF147CE-76EC-35D5-806D-A82C8E40FC81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

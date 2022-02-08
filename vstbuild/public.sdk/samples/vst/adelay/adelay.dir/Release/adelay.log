@@ -1,0 +1,316 @@
+﻿  Building Custom Rule D:/VSTPlugins2019/vst3sdk/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt
+  adelayprocessor.cpp
+  adelaycontroller.cpp
+  exampletest.cpp
+  factory.cpp
+  ringbuffertest.cpp
+  versionparsertest.cpp
+  dllmain.cpp
+     Creating library D:/VSTPlugins2019/vst3sdk/vstbuild/lib/Release/adelay.lib and object D:/VSTPlugins2019/vst3sdk/vstbuild/lib/Release/adelay.exp
+  adelay.vcxproj -> D:\VSTPlugins2019\vst3sdk\vstbuild\VST3\Release\adelay.vst3\Contents\x86_64-win\adelay.vst3
+  * Loading module...
+  
+  	D:/VSTPlugins2019/vst3sdk/vstbuild/VST3/Release/adelay.vst3/Contents/x86_64-win/adelay.vst3
+  
+  * Scanning classes...
+  
+    Factory Info:
+  	vendor = Steinberg Media Technologies
+  	url = http://www.steinberg.net
+  	email = mailto:info@steinberg.de
+  
+    Class Info 0:
+  	name = ADelay
+  	category = Audio Module Class
+  	subCategories = Fx|Delay
+  	version = 1.1.0.1
+  	sdkVersion = VST 3.7.1
+  	cid = 0CDBB66985D548A9BFD8371909D24BB3
+  
+    Class Info 1:
+  	name = ADelayController
+  	category = Component Controller Class
+  	subCategories = 
+  	version = 1.1.0.1
+  	sdkVersion = VST 3.7.1
+  	cid = 038E7FA9629A4EAA8541B88918E8952C
+  
+    Class Info 2:
+  	name = ADelayTest Factory
+  	category = Test Class
+  	subCategories = 
+  	version = 
+  	sdkVersion = 
+  	cid = 6027723774CC4303B6737CA6EDD0F811
+  
+  * Checking snapshots...
+  
+EXEC : warning : No snapshots in Bundle.
+  
+  * Creating tests...
+  
+  * Creating Plug-in supplied tests...
+  
+  * Running tests...
+  
+  -------------------------------------------------------------
+  TestSuite : ADelay
+  -------------------------------------------------------------
+  
+  -------------------------------------------------------------
+  TestSuite : General Tests
+  -------------------------------------------------------------
+  
+  [Scan Editor Classes]
+  Info:  ===Scan Editor Classes ====================================
+  Info:  This component has an edit controller class
+  Info:     Controller CID: {038E7FA9-629A-4EAA-8541-B88918E8952C}
+  [Succeeded]
+  
+  [Scan Buses]
+  Info:  ===Scan Buses ====================================
+  Info:  => Audio Buses: [1 In(s) => 1 Out(s)]
+  Info:       In [0]: "AudioInput" (Main-Default Active) 
+  Info:       Out[0]: "AudioOutput" (Main-Default Active) 
+  Info:  => Event Buses: [0 In(s) => 0 Out(s)]
+  [Succeeded]
+  
+  [Scan Parameters]
+  Info:  ===Scan Parameters ====================================
+  Info:  This component exports 2 parameter(s)
+  Info:     Parameter 000 (id=101): [title="Bypass"] [unit=""] [type = T, default = 0.000000, unit = 0]
+  Info:     Parameter 001 (id=100): [title="Delay"] [unit="sec"] [type = F, default = 1.000000, unit = 0]
+  [Succeeded]
+  
+  [MIDI Mapping]
+  Info:  ===MIDI Mapping ====================================
+  Info:  No MIDI Mapping interface supplied!
+  [Succeeded]
+  
+  [MIDI Learn]
+  Info:  ===MIDI Learn ====================================
+  Info:  No MIDI Learn interface supplied!
+  [Succeeded]
+  
+  [Scan Units]
+  Info:  ===Scan Units ====================================
+  Info:  This component has no units.
+  [Succeeded]
+  
+  [Scan Programs]
+  Info:  ===Scan Programs ====================================
+  Info:  This component does not export any programs.
+  [Succeeded]
+  
+  [Terminate/Initialize]
+  Info:  ===Terminate/Initialize ====================================
+  [Succeeded]
+  
+  [Check Unit Structure]
+  Info:  ===Check Unit Structure ====================================
+  Info:  This component does not support IUnitInfo!
+  [Succeeded]
+  
+  [Valid State Transition 32bits]
+  Info:  ===Valid State Transition 32bits ====================================
+  [Succeeded]
+  
+  [Valid State Transition 64bits]
+  Info:  ===Valid State Transition 64bits ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Bus Consistency]
+  Info:  ===Bus Consistency ====================================
+  [Succeeded]
+  
+  [Bus Activation]
+  Info:  ===Bus Activation ====================================
+  Info:     Bus Activation: Input Audio Bus (0) (kMain)
+  Info:     Bus Activation: Output Audio Bus (0) (kMain)
+  [Succeeded]
+  
+  [Check Audio Bus Arrangement]
+  Info:  ===Check Audio Bus Arrangement ====================================
+  Info:     Check Input Audio Bus Arrangement (0)
+  Info:     Check Output Audio Bus Arrangement (0)
+  [Succeeded]
+  
+  [SideChain Arrangement]
+  Info:  ===SideChain Arrangement ====================================
+  [Succeeded]
+  
+  [Suspend/Resume]
+  Info:  ===Suspend/Resume ====================================
+  [Succeeded]
+  
+  [Note Expression]
+  Info:  ===Note Expression ====================================
+  Info:  No Note Expression interface supplied!
+  [Succeeded]
+  
+  [Keyswitch]
+  Info:  ===Keyswitch ====================================
+  Info:  No Keyswitch interface supplied!
+  [Succeeded]
+  
+  [ProcessContext Requirements]
+  Info:  ===ProcessContext Requirements ====================================
+  Info:  ProcessContextRequirements:
+  Info:   - None
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : Single Precision (32 bit) Tests
+  -------------------------------------------------------------
+  
+  [Process Test]
+  [Succeeded]
+  
+  [Process function running in another thread]
+  Info:  ===Process function running in another thread ====================================
+  [Succeeded]
+  
+  [Silence Flags]
+  Info:  ===Silence Flags ====================================
+  [Succeeded]
+  
+  [Silence Processing]
+  Info:  ===Silence Processing ====================================
+  [Succeeded]
+  
+  [Parameters Flush (no Buffer)]
+  Info:  ===Parameters Flush (no Buffer) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (only numChannel==0)]
+  Info:  ===Parameters Flush 2 (only numChannel==0) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (no Buffer, no parameter change)]
+  Info:  ===Parameters Flush 2 (no Buffer, no parameter change) ====================================
+  [Succeeded]
+  
+  [Variable Block Size]
+  Info:  ===Variable Block Size ====================================
+  [Succeeded]
+  
+  [Process Format]
+  Info:  ===Process Format ====================================
+  Info:  ***Tested Sample Rates***
+  Info:        22050 Hz - processed successfully!
+  Info:        32000 Hz - processed successfully!
+  Info:        44100 Hz - processed successfully!
+  Info:        48000 Hz - processed successfully!
+  Info:        88200 Hz - processed successfully!
+  Info:        96000 Hz - processed successfully!
+  Info:       192000 Hz - processed successfully!
+  Info:       384000 Hz - processed successfully!
+  Info:    1234.5678 Hz - processed successfully!
+  Info:    12345.678 Hz - processed successfully!
+  Info:    123456.78 Hz - processed successfully!
+  Info:    1234567.8 Hz - processed successfully!
+  [Succeeded]
+  
+  [Parameter Bypass persistence]
+  Info:  ===Parameter Bypass persistence ====================================
+  [Succeeded]
+  
+  [In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+  Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+  [Succeeded]
+  
+  [In: Mono: 1 Channels, Out: Mono: 1 Channels]
+  Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+  [Succeeded]
+  
+  [Accuracy: Block, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Block, 1 Parameters, Change every100 Samples ====================================
+  [Succeeded]
+  
+  [Accuracy: Sample, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Sample, 1 Parameters, Change every100 Samples ====================================
+  Info:     Not all points have been read via IParameterChanges
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : Double Precision (64 bit) Tests
+  -------------------------------------------------------------
+  
+  [Process Test]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Process function running in another thread]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Silence Flags]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Silence Processing]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Parameters Flush (no Buffer)]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Parameters Flush 2 (only numChannel==0)]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Parameters Flush 2 (no Buffer, no parameter change)]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Variable Block Size]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Process Format]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Parameter Bypass persistence]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+  Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [In: Mono: 1 Channels, Out: Mono: 1 Channels]
+  Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Accuracy: Block, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Block, 1 Parameters, Change every100 Samples ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Accuracy: Sample, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Sample, 1 Parameters, Change every100 Samples ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : ADelayTest Factory
+  -------------------------------------------------------------
+  
+  [ExampleTest]
+  [Succeeded]
+  
+  [Ringbuffer Tests]
+  [Succeeded]
+  
+  [VersionParser Tests]
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  Result: 50 tests passed, 0 tests failed
+  -------------------------------------------------------------
+  symbolic link created for C:\Program Files\Common Files\VST3\adelay.vst3 <<===>> D:\VSTPlugins2019\vst3sdk\vstbuild\VST3\Release\adelay.vst3

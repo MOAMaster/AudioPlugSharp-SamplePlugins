@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\editorsizecontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\eventlistcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\eventlogdatabrowsersource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\eventlogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\hostcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\hostcheckercontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\hostcheckerprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\parameterchangescheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\processcontextcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\processsetupcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\cids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\editorsizecontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\eventlistcheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\eventlogdatabrowsersource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\eventlogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\hostcheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\hostcheckercontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\hostcheckerprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\logevents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\parameterchangescheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\processcontextcheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\processsetupcheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\source\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\resource\hostchecker.uidesc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst\hostchecker\resource\hostchecker.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B13CB634-CCD1-314C-BEC9-E77E403BD3F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CAF147CE-76EC-35D5-806D-A82C8E40FC81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

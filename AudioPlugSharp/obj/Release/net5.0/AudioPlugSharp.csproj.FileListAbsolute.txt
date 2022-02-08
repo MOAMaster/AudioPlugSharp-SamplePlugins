@@ -1,0 +1,12 @@
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\bin\Release\net5.0\AudioPlugSharp.deps.json
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\bin\Release\net5.0\AudioPlugSharp.dll
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\bin\Release\net5.0\ref\AudioPlugSharp.dll
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\bin\Release\net5.0\AudioPlugSharp.pdb
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\obj\Release\net5.0\AudioPlugSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\obj\Release\net5.0\AudioPlugSharp.AssemblyInfoInputs.cache
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\obj\Release\net5.0\AudioPlugSharp.AssemblyInfo.cs
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\obj\Release\net5.0\AudioPlugSharp.csproj.CoreCompileInputs.cache
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\obj\Release\net5.0\AudioPlugSharp.dll
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\obj\Release\net5.0\ref\AudioPlugSharp.dll
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\obj\Release\net5.0\AudioPlugSharp.pdb
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\obj\Release\net5.0\AudioPlugSharp.csproj.AssemblyReference.cache

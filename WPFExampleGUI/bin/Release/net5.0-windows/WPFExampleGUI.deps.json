@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WPFExampleGUI/1.0.0": {
+        "dependencies": {
+          "AudioPlugSharp": "1.0.0",
+          "AudioPlugSharpWPF": "1.0.0",
+          "SliderMgr": "1.0.0",
+          "WpfEditorView": "1.0.0"
+        },
+        "runtime": {
+          "WPFExampleGUI.dll": {}
+        }
+      },
+      "AudioPlugSharp/1.0.0": {
+        "runtime": {
+          "AudioPlugSharp.dll": {}
+        }
+      },
+      "AudioPlugSharpWPF/1.0.0": {
+        "dependencies": {
+          "AudioPlugSharp": "1.0.0"
+        },
+        "runtime": {
+          "AudioPlugSharpWPF.dll": {}
+        }
+      },
+      "SliderMgr/1.0.0": {
+        "runtime": {
+          "SliderMgr.dll": {}
+        }
+      },
+      "WpfEditorView/1.0.0": {
+        "runtime": {
+          "WpfEditorView.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPFExampleGUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AudioPlugSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AudioPlugSharpWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SliderMgr/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WpfEditorView/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

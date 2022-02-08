@@ -1,0 +1,375 @@
+﻿  Building Custom Rule D:/VSTPlugins2019/vst3sdk/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt
+  editorsizecontroller.cpp
+  eventlistcheck.cpp
+  eventlogdatabrowsersource.cpp
+  eventlogger.cpp
+  factory.cpp
+  hostcheck.cpp
+  hostcheckercontroller.cpp
+  hostcheckerprocessor.cpp
+  parameterchangescheck.cpp
+  processsetupcheck.cpp
+  processcontextcheck.cpp
+  dllmain.cpp
+     Creating library D:/VSTPlugins2019/vst3sdk/vstbuild/lib/Debug/hostchecker.lib and object D:/VSTPlugins2019/vst3sdk/vstbuild/lib/Debug/hostchecker.exp
+  hostchecker.vcxproj -> D:\VSTPlugins2019\vst3sdk\vstbuild\VST3\Debug\hostchecker.vst3\Contents\x86_64-win\hostchecker.vst3
+  * Loading module...
+  
+  	D:/VSTPlugins2019/vst3sdk/vstbuild/VST3/Debug/hostchecker.vst3/Contents/x86_64-win/hostchecker.vst3
+  
+  * Scanning classes...
+  
+    Factory Info:
+  	vendor = Steinberg Media Technologies
+  	url = http://www.steinberg.net
+  	email = mailto:info@steinberg.de
+  
+    Class Info 0:
+  	name = VST3 Host Checker
+  	category = Audio Module Class
+  	subCategories = Fx|Instrument
+  	version = 1.3.0.1
+  	sdkVersion = VST 3.7.1
+  	cid = 23FC190E02DD4499A8D2230E50617DA3
+  
+    Class Info 1:
+  	name = VST3 Host Checker
+  	category = Component Controller Class
+  	subCategories = 
+  	version = 1.3.0.1
+  	sdkVersion = VST 3.7.1
+  	cid = 35AC5652C7D24CB1B1427D38EB690DAF
+  
+  * Checking snapshots...
+  
+EXEC : warning : No snapshots in Bundle.
+  
+  * Creating tests...
+  
+  * Running tests...
+  
+  -------------------------------------------------------------
+  TestSuite : VST3 Host Checker
+  -------------------------------------------------------------
+  
+  -------------------------------------------------------------
+  TestSuite : General Tests
+  -------------------------------------------------------------
+  
+  [Scan Editor Classes]
+  Info:  ===Scan Editor Classes ====================================
+  Info:  This component has an edit controller class
+  Info:     Controller CID: {35AC5652-C7D2-4CB1-B142-7D38EB690DAF}
+  [Succeeded]
+  
+  [Scan Buses]
+  Info:  ===Scan Buses ====================================
+  Info:  => Audio Buses: [11 In(s) => 1 Out(s)]
+  Info:       In [0]: "Audio Input" (Main-Default Active) 
+  Info:       In [1]: "Aux Input 1" (Aux-Default Active) 
+  Info:       In [2]: "Aux Input 2" (Aux-Default Active) 
+  Info:       In [3]: "Aux Input 3" (Aux-Default Active) 
+  Info:       In [4]: "Aux Input 4" (Aux-Default Active) 
+  Info:       In [5]: "Aux Input 5" (Aux-Default Active) 
+  Info:       In [6]: "Aux Input 6" (Aux-Default Active) 
+  Info:       In [7]: "Aux Input 7" (Aux-Default Active) 
+  Info:       In [8]: "Aux Input 8" (Aux-Default Active) 
+  Info:       In [9]: "Aux Input 9" (Aux-Default Active) 
+  Info:       In [10]: "Aux Input 10" (Aux-Default Active) 
+  Info:       Out[0]: "Audio Output" (Main-Default Active) 
+  Info:  => Event Buses: [2 In(s) => 2 Out(s)]
+  Info:       In [0]: "Event Input 1" (Main-Default Active) 
+  Info:       In [1]: "Event Input 2" (Main-Default Active) 
+  Info:       Out[0]: "Event Output 1" (Main-Default Active) 
+  Info:       Out[1]: "Event Output 2" (Main-Default Active) 
+  [Succeeded]
+  
+  [Scan Parameters]
+  Info:  ===Scan Parameters ====================================
+  Info:  This component exports 18 parameter(s)
+  Info:     Parameter 000 (id=1000): [title="Param1"] [unit=""] [type = F, default = 0.000000, unit = 0]
+  Info:     Parameter 001 (id=1001): [title="Generate Peaks"] [unit=""] [type = F, default = 0.000000, unit = 0]
+  Info:     Parameter 002 (id=1002): [title="Latency"] [unit=""] [type = D, default = 0.000000, unit = 1234]
+  Info:     Parameter 003 (id=1004): [title="CanResize"] [unit=""] [type = T, default = 1.000000, unit = 0]
+  Info:     Parameter 004 (id=1005): [title="Scoring"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  Info:     Parameter 005 (id=1003): [title="Bypass"] [unit=""] [type = T, default = 0.000000, unit = 0]
+  Info:     Parameter 006 (id=1009): [title="ProgressValue"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  Info:     Parameter 007 (id=1008): [title="TriggerProgress"] [unit=""] [type = T, default = 0.000000, unit = 0]
+  Info:     Parameter 008 (id=1006): [title="ParamWhichCouldBeHidden"] [unit=""] [type = F, default = 0.000000, unit = 1235]
+  Info:     Parameter 009 (id=1007): [title="TriggerHidden"] [unit=""] [type = T, default = 0.000000, unit = 0]
+  Info:     Parameter 010 (id=1010): [title="Copy2Clipboard"] [unit=""] [type = T, default = 0.000000, unit = 0]
+  Info:  Parameter 010 (id=1010) is kIsHidden and NOT kIsReadOnly!
+  Info:     Parameter 011 (id=1011): [title="ProcessWarn"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  Info:     Parameter 012 (id=1012): [title="ProcessWarn"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  Info:     Parameter 013 (id=1013): [title="ProcessWarn"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  Info:     Parameter 014 (id=1014): [title="ProcessWarn"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  Info:     Parameter 015 (id=1015): [title="ProcessWarn"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  Info:     Parameter 016 (id=1016): [title="ProcessWarn"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  Info:     Parameter 017 (id=1017): [title="ProcessWarn"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  [Succeeded]
+  
+  [MIDI Mapping]
+  Info:  ===MIDI Mapping ====================================
+  Info:  MIDI Mapping getMidiControllerAssignment (1, 0) : no assignment available!
+  [Succeeded]
+  
+  [MIDI Learn]
+  Info:  ===MIDI Learn ====================================
+  [Succeeded]
+  
+  [Scan Units]
+  Info:  ===Scan Units ====================================
+  Info:  This component has 2 unit(s).
+  Info:     Unit000 (ID = 1234): "Setup" (parent ID = 0, programlist ID = -1)
+  Info:     Unit001 (ID = 1235): "Second Unit" (parent ID = 0, programlist ID = -1)
+  [Succeeded]
+  
+  [Scan Programs]
+  Info:  ===Scan Programs ====================================
+  Info:  This component does not export any programs.
+  [Succeeded]
+  
+  [Terminate/Initialize]
+  Info:  ===Terminate/Initialize ====================================
+  [Succeeded]
+  
+  [Check Unit Structure]
+  Info:  ===Check Unit Structure ====================================
+  Info:  All units have valid parent IDs.
+  [Succeeded]
+  
+  [Valid State Transition 32bits]
+  Info:  ===Valid State Transition 32bits ====================================
+  [Succeeded]
+  
+  [Valid State Transition 64bits]
+  Info:  ===Valid State Transition 64bits ====================================
+  [Succeeded]
+  
+  [Bus Consistency]
+  Info:  ===Bus Consistency ====================================
+  [Succeeded]
+  
+  [Bus Activation]
+  Info:  ===Bus Activation ====================================
+  Info:     Bus Activation: Input Audio Bus (0) (kMain)
+  Info:     Bus Activation: Input Audio Bus (1) (kAux)
+  Info:     Bus Activation: Input Audio Bus (2) (kAux)
+  Info:     Bus Activation: Input Audio Bus (3) (kAux)
+  Info:     Bus Activation: Input Audio Bus (4) (kAux)
+  Info:     Bus Activation: Input Audio Bus (5) (kAux)
+  Info:     Bus Activation: Input Audio Bus (6) (kAux)
+  Info:     Bus Activation: Input Audio Bus (7) (kAux)
+  Info:     Bus Activation: Input Audio Bus (8) (kAux)
+  Info:     Bus Activation: Input Audio Bus (9) (kAux)
+  Info:     Bus Activation: Input Audio Bus (10) (kAux)
+  Info:     Bus Activation: Output Audio Bus (0) (kMain)
+  Info:     Bus Activation: Input Event Bus (0) (kMain)
+  Info:     Bus Activation: Input Event Bus (1) (kMain)
+  Info:     Bus Activation: Output Event Bus (0) (kMain)
+  Info:     Bus Activation: Output Event Bus (1) (kMain)
+  [Succeeded]
+  
+  [Check Audio Bus Arrangement]
+  Info:  ===Check Audio Bus Arrangement ====================================
+  Info:     Check Input Audio Bus Arrangement (0)
+  Info:     Check Input Audio Bus Arrangement (1)
+  Info:     Check Input Audio Bus Arrangement (2)
+  Info:     Check Input Audio Bus Arrangement (3)
+  Info:     Check Input Audio Bus Arrangement (4)
+  Info:     Check Input Audio Bus Arrangement (5)
+  Info:     Check Input Audio Bus Arrangement (6)
+  Info:     Check Input Audio Bus Arrangement (7)
+  Info:     Check Input Audio Bus Arrangement (8)
+  Info:     Check Input Audio Bus Arrangement (9)
+  Info:     Check Input Audio Bus Arrangement (10)
+  Info:     Check Output Audio Bus Arrangement (0)
+  [Succeeded]
+  
+  [SideChain Arrangement]
+  Info:  ===SideChain Arrangement ====================================
+  [Succeeded]
+  
+  [Suspend/Resume]
+  Info:  ===Suspend/Resume ====================================
+  [Succeeded]
+  
+  [Note Expression]
+  Info:  ===Note Expression ====================================
+  Info:  Note Expression PhysicalUIMapping: -1 => 0
+  Info:  Note Expression PhysicalUIMapping: -1 => 1
+  Info:  Note Expression PhysicalUIMapping: -1 => 2
+  Info:  Note Expression PhysicalUIMapping: -1 => 0
+  Info:  Note Expression PhysicalUIMapping: -1 => 1
+  Info:  Note Expression PhysicalUIMapping: -1 => 2
+  [Succeeded]
+  
+  [Keyswitch]
+  Info:  ===Keyswitch ====================================
+  [Succeeded]
+  
+  [ProcessContext Requirements]
+  Info:  ===ProcessContext Requirements ====================================
+  Info:  ProcessContextRequirements:
+  Info:   - SystemTime
+  Info:   - ContinousTimeSamples
+  Info:   - ProjectTimeMusic
+  Info:   - BarPosititionMusic
+  Info:   - CycleMusic
+  Info:   - SamplesToNextClock
+  Info:   - Tempo
+  Info:   - TimeSignature
+  Info:   - Chord
+  Info:   - FrameRate
+  Info:   - TransportState
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : Single Precision (32 bit) Tests
+  -------------------------------------------------------------
+  
+  [Process Test]
+  [Succeeded]
+  
+  [Process function running in another thread]
+  Info:  ===Process function running in another thread ====================================
+  [Succeeded]
+  
+  [Silence Flags]
+  Info:  ===Silence Flags ====================================
+  [Succeeded]
+  
+  [Silence Processing]
+  Info:  ===Silence Processing ====================================
+  [Succeeded]
+  
+  [Parameters Flush (no Buffer)]
+  Info:  ===Parameters Flush (no Buffer) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (only numChannel==0)]
+  Info:  ===Parameters Flush 2 (only numChannel==0) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (no Buffer, no parameter change)]
+  Info:  ===Parameters Flush 2 (no Buffer, no parameter change) ====================================
+  [Succeeded]
+  
+  [Variable Block Size]
+  Info:  ===Variable Block Size ====================================
+  [Succeeded]
+  
+  [Process Format]
+  Info:  ===Process Format ====================================
+  Info:  ***Tested Sample Rates***
+  Info:        22050 Hz - processed successfully!
+  Info:        32000 Hz - processed successfully!
+  Info:        44100 Hz - processed successfully!
+  Info:        48000 Hz - processed successfully!
+  Info:        88200 Hz - processed successfully!
+  Info:        96000 Hz - processed successfully!
+  Info:       192000 Hz - processed successfully!
+  Info:       384000 Hz - processed successfully!
+  Info:    1234.5678 Hz - processed successfully!
+  Info:    12345.678 Hz - processed successfully!
+  Info:    123456.78 Hz - processed successfully!
+  Info:    1234567.8 Hz - processed successfully!
+  [Succeeded]
+  
+  [Parameter Bypass persistence]
+  Info:  ===Parameter Bypass persistence ====================================
+  [Succeeded]
+  
+  [In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+  Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+  [Succeeded]
+  
+  [In: Mono: 1 Channels, Out: Mono: 1 Channels]
+  Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+  [Succeeded]
+  
+  [Accuracy: Block, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Block, 1 Parameters, Change every100 Samples ====================================
+  [Succeeded]
+  
+  [Accuracy: Sample, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Sample, 1 Parameters, Change every100 Samples ====================================
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : Double Precision (64 bit) Tests
+  -------------------------------------------------------------
+  
+  [Process Test]
+  [Succeeded]
+  
+  [Process function running in another thread]
+  Info:  ===Process function running in another thread ====================================
+  [Succeeded]
+  
+  [Silence Flags]
+  Info:  ===Silence Flags ====================================
+  [Succeeded]
+  
+  [Silence Processing]
+  Info:  ===Silence Processing ====================================
+  [Succeeded]
+  
+  [Parameters Flush (no Buffer)]
+  Info:  ===Parameters Flush (no Buffer) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (only numChannel==0)]
+  Info:  ===Parameters Flush 2 (only numChannel==0) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (no Buffer, no parameter change)]
+  Info:  ===Parameters Flush 2 (no Buffer, no parameter change) ====================================
+  [Succeeded]
+  
+  [Variable Block Size]
+  Info:  ===Variable Block Size ====================================
+  [Succeeded]
+  
+  [Process Format]
+  Info:  ===Process Format ====================================
+  Info:  ***Tested Sample Rates***
+  Info:        22050 Hz - processed successfully!
+  Info:        32000 Hz - processed successfully!
+  Info:        44100 Hz - processed successfully!
+  Info:        48000 Hz - processed successfully!
+  Info:        88200 Hz - processed successfully!
+  Info:        96000 Hz - processed successfully!
+  Info:       192000 Hz - processed successfully!
+  Info:       384000 Hz - processed successfully!
+  Info:    1234.5678 Hz - processed successfully!
+  Info:    12345.678 Hz - processed successfully!
+  Info:    123456.78 Hz - processed successfully!
+  Info:    1234567.8 Hz - processed successfully!
+  [Succeeded]
+  
+  [Parameter Bypass persistence]
+  Info:  ===Parameter Bypass persistence ====================================
+  [Succeeded]
+  
+  [In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+  Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+  [Succeeded]
+  
+  [In: Mono: 1 Channels, Out: Mono: 1 Channels]
+  Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+  [Succeeded]
+  
+  [Accuracy: Block, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Block, 1 Parameters, Change every100 Samples ====================================
+  [Succeeded]
+  
+  [Accuracy: Sample, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Sample, 1 Parameters, Change every100 Samples ====================================
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  Result: 47 tests passed, 0 tests failed
+  -------------------------------------------------------------
+  Could Not Find C:\Program Files\Common Files\VST3\hostchecker.vst3
+  symbolic link created for C:\Program Files\Common Files\VST3\hostchecker.vst3 <<===>> D:\VSTPlugins2019\vst3sdk\vstbuild\VST3\Debug\hostchecker.vst3

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\VSTPlugins2019\vst3sdk\vstbuild\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VSTPlugins2019\vst3sdkRev\x64\Release\AudioPlugSharpVst.runtimeconfig.json</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\VSTPlugins2019\vst3sdkRev\x64\Release\AudioPlugSharpVst.vst3</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharpVst\wpf.runtimeconfig.json</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs>
+    <NonRecipeFileRef>
+      <FullPath>D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharp\AudioPlugSharp.csproj</FullPath>
+    </NonRecipeFileRef>
+  </NonRecipeFileRefs>
+</Project>

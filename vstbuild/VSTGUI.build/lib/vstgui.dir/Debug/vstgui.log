@@ -1,0 +1,9 @@
+﻿  Building Custom Rule D:/VSTPlugins2019/vst3sdk/vst3sdk/vstgui4/vstgui/lib/CMakeLists.txt
+  animations.cpp
+  animator.cpp
+  timingfunctions.cpp
+  cbitmap.cpp
+  cbitmapfilter.cpp
+  ccolor.cpp
+  cdatabrowser.cpp
+  cdrawcontext.cpp

@@ -1,0 +1,7 @@
+D:\VSTPlugins2019\vst3sdkRev\x64\Debug\wpf.runtimeconfig.json
+D:\VSTPlugins2019\vst3sdkRev\x64\Debug\Ijwhost.dll
+D:\VSTPlugins2019\vst3sdkRev\x64\Debug\AudioPlugSharpVst.deps.json
+D:\VSTPlugins2019\vst3sdkRev\x64\Debug\AudioPlugSharpVst.runtimeconfig.json
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharpVst\x64\Debug\AudioPlugSharpVst.vcxproj.AssemblyReference.cache
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharpVst\x64\Debug\AudioPlugSharpVst.vcxproj.CopyComplete
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharpVst\x64\Debug\AudioPlugSharpVst.genruntimeconfig.cache

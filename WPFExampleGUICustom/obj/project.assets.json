@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "AudioPlugSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AudioPlugSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AudioPlugSharp.dll": {}
+        }
+      },
+      "AudioPlugSharpWPF/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AudioPlugSharp": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AudioPlugSharpWPF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AudioPlugSharpWPF.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "WpfEditorView/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/WpfEditorView.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WpfEditorView.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AudioPlugSharp/1.0.0": {
+      "type": "project",
+      "path": "../AudioPlugSharp/AudioPlugSharp.csproj",
+      "msbuildProject": "../AudioPlugSharp/AudioPlugSharp.csproj"
+    },
+    "AudioPlugSharpWPF/1.0.0": {
+      "type": "project",
+      "path": "../AudioPlugSharpWPF/AudioPlugSharpWPF.csproj",
+      "msbuildProject": "../AudioPlugSharpWPF/AudioPlugSharpWPF.csproj"
+    },
+    "WpfEditorView/1.0.0": {
+      "type": "project",
+      "path": "../WpfEditorView/WpfEditorView.csproj",
+      "msbuildProject": "../WpfEditorView/WpfEditorView.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "AudioPlugSharp >= 1.0.0",
+      "AudioPlugSharpWPF >= 1.0.0",
+      "WpfEditorView >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\bkrel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\VSTPlugins2019\\vst3sdkRev\\WPFExampleGUICustom\\WPFExampleGUICustom.csproj",
+      "projectName": "WPFExampleGUICustom",
+      "projectPath": "D:\\VSTPlugins2019\\vst3sdkRev\\WPFExampleGUICustom\\WPFExampleGUICustom.csproj",
+      "packagesPath": "C:\\Users\\bkrel\\.nuget\\packages\\",
+      "outputPath": "D:\\VSTPlugins2019\\vst3sdkRev\\WPFExampleGUICustom\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\bkrel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "D:\\VSTPlugins2019\\vst3sdkRev\\AudioPlugSharpWPF\\AudioPlugSharpWPF.csproj": {
+              "projectPath": "D:\\VSTPlugins2019\\vst3sdkRev\\AudioPlugSharpWPF\\AudioPlugSharpWPF.csproj"
+            },
+            "D:\\VSTPlugins2019\\vst3sdkRev\\AudioPlugSharp\\AudioPlugSharp.csproj": {
+              "projectPath": "D:\\VSTPlugins2019\\vst3sdkRev\\AudioPlugSharp\\AudioPlugSharp.csproj"
+            },
+            "D:\\VSTPlugins2019\\vst3sdkRev\\WpfEditorView\\WpfEditorView.csproj": {
+              "projectPath": "D:\\VSTPlugins2019\\vst3sdkRev\\WpfEditorView\\WpfEditorView.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

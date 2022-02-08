@@ -1,0 +1,15 @@
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\bin\Debug\net5.0\SimpleExample.deps.json
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\bin\Debug\net5.0\SimpleExample.dll
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\bin\Debug\net5.0\ref\SimpleExample.dll
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\bin\Debug\net5.0\SimpleExample.pdb
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\bin\Debug\net5.0\AudioPlugSharp.dll
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\bin\Debug\net5.0\AudioPlugSharp.pdb
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\obj\Debug\net5.0\SimpleExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\obj\Debug\net5.0\SimpleExample.AssemblyInfoInputs.cache
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\obj\Debug\net5.0\SimpleExample.AssemblyInfo.cs
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\obj\Debug\net5.0\SimpleExample.csproj.CoreCompileInputs.cache
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\obj\Debug\net5.0\SimpleExample.csproj.CopyComplete
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\obj\Debug\net5.0\SimpleExample.dll
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\obj\Debug\net5.0\ref\SimpleExample.dll
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\obj\Debug\net5.0\SimpleExample.pdb
+D:\VSTPlugins2019\vst3sdkRev\SimpleExample\obj\Debug\net5.0\SimpleExample.csproj.AssemblyReference.cache

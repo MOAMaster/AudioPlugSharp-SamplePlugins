@@ -1,0 +1,296 @@
+﻿  Building Custom Rule D:/VSTPlugins2019/vst3sdk/vst3sdk/public.sdk/samples/vst/note_expression_text/CMakeLists.txt
+  plug.cpp
+  plugcontroller.cpp
+  plugentry.cpp
+  dllmain.cpp
+     Creating library D:/VSTPlugins2019/vst3sdk/vstbuild/lib/Release/noteexpressiontext.lib and object D:/VSTPlugins2019/vst3sdk/vstbuild/lib/Release/noteexpressiontext.exp
+  noteexpressiontext.vcxproj -> D:\VSTPlugins2019\vst3sdk\vstbuild\VST3\Release\noteexpressiontext.vst3\Contents\x86_64-win\noteexpressiontext.vst3
+  * Loading module...
+  
+  	D:/VSTPlugins2019/vst3sdk/vstbuild/VST3/Release/noteexpressiontext.vst3/Contents/x86_64-win/noteexpressiontext.vst3
+  
+  * Scanning classes...
+  
+    Factory Info:
+  	vendor = Steinberg Media Technologies
+  	url = http://www.steinberg.net
+  	email = mailto:info@steinberg.de
+  
+    Class Info 0:
+  	name = Note Expression Text
+  	category = Audio Module Class
+  	subCategories = Fx|Instrument
+  	version = 1.0.0.1
+  	sdkVersion = VST 3.7.1
+  	cid = 1E4DC62B974147D69CAB1B8650D4B11C
+  
+    Class Info 1:
+  	name = Note Expression TextController
+  	category = Component Controller Class
+  	subCategories = 
+  	version = 1.0.0.1
+  	sdkVersion = VST 3.7.1
+  	cid = A8D238C197F54908B32EB8083EA43CEC
+  
+  * Checking snapshots...
+  
+EXEC : warning : No snapshots in Bundle.
+  
+  * Creating tests...
+  
+  * Running tests...
+  
+  -------------------------------------------------------------
+  TestSuite : Note Expression Text
+  -------------------------------------------------------------
+  
+  -------------------------------------------------------------
+  TestSuite : General Tests
+  -------------------------------------------------------------
+  
+  [Scan Editor Classes]
+  Info:  ===Scan Editor Classes ====================================
+  Info:  This component has an edit controller class
+  Info:     Controller CID: {A8D238C1-97F5-4908-B32E-B8083EA43CEC}
+  [Succeeded]
+  
+  [Scan Buses]
+  Info:  ===Scan Buses ====================================
+  Info:  => Audio Buses: [0 In(s) => 1 Out(s)]
+  Info:       Out[0]: "Stereo Out" (Main-Default Active) 
+  Info:  => Event Buses: [1 In(s) => 0 Out(s)]
+  Info:       In [0]: "Event In" (Main-Default Active) 
+  [Succeeded]
+  
+  [Scan Parameters]
+  Info:  ===Scan Parameters ====================================
+  Info:  This component exports 1 parameter(s)
+  Info:     Parameter 000 (id=0): [title="Bypass"] [unit=""] [type = T, default = 0.000000, unit = 0]
+  [Succeeded]
+  
+  [MIDI Mapping]
+  Info:  ===MIDI Mapping ====================================
+  Info:  No MIDI Mapping interface supplied!
+  [Succeeded]
+  
+  [MIDI Learn]
+  Info:  ===MIDI Learn ====================================
+  Info:  No MIDI Learn interface supplied!
+  [Succeeded]
+  
+  [Scan Units]
+  Info:  ===Scan Units ====================================
+  Info:  No units found, while controller implements IUnitInfo !!!
+  [Succeeded]
+  
+  [Scan Programs]
+  Info:  ===Scan Programs ====================================
+  Info:  This component does not export any programs.
+  [Succeeded]
+  
+  [Terminate/Initialize]
+  Info:  ===Terminate/Initialize ====================================
+  [Succeeded]
+  
+  [Check Unit Structure]
+  Info:  ===Check Unit Structure ====================================
+  Info:  No units found, while controller implements IUnitInfo !!!
+  Info:  All units have valid parent IDs.
+  [Succeeded]
+  
+  [Valid State Transition 32bits]
+  Info:  ===Valid State Transition 32bits ====================================
+  [Succeeded]
+  
+  [Valid State Transition 64bits]
+  Info:  ===Valid State Transition 64bits ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Bus Consistency]
+  Info:  ===Bus Consistency ====================================
+  [Succeeded]
+  
+  [Bus Activation]
+  Info:  ===Bus Activation ====================================
+  Info:     Bus Activation: Output Audio Bus (0) (kMain)
+  Info:     Bus Activation: Input Event Bus (0) (kMain)
+  [Succeeded]
+  
+  [Check Audio Bus Arrangement]
+  Info:  ===Check Audio Bus Arrangement ====================================
+  Info:     Check Output Audio Bus Arrangement (0)
+  [Succeeded]
+  
+  [SideChain Arrangement]
+  Info:  ===SideChain Arrangement ====================================
+  [Succeeded]
+  
+  [Suspend/Resume]
+  Info:  ===Suspend/Resume ====================================
+  [Succeeded]
+  
+  [Note Expression]
+  Info:  ===Note Expression ====================================
+  Info:  No Note Expression PhysicalUIMapping interface supplied!
+  Info:  Note Expression count bus[0], channel[0]: 2
+  Info:  Note Expression TypeID: 6 [Lyrics]
+  Info:  Note Expression getNoteExpressionStringByValue (0, 0, 6) return kResultFalse!
+  Info:  Note Expression getNoteExpressionValueByString (0, 0, 6) return kResultFalse!
+  Info:  Note Expression TypeID: 6 [Phoneme]
+  Info:  Note Expression getNoteExpressionStringByValue (0, 0, 6) return kResultFalse!
+  Info:  Note Expression getNoteExpressionValueByString (0, 0, 6) return kResultFalse!
+  [Succeeded]
+  
+  [Keyswitch]
+  Info:  ===Keyswitch ====================================
+  Info:  No Keyswitch interface supplied!
+  [Succeeded]
+  
+  [ProcessContext Requirements]
+  Info:  ===ProcessContext Requirements ====================================
+  Info:  ProcessContextRequirements:
+  Info:   - None
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : Single Precision (32 bit) Tests
+  -------------------------------------------------------------
+  
+  [Process Test]
+  [Succeeded]
+  
+  [Process function running in another thread]
+  Info:  ===Process function running in another thread ====================================
+  [Succeeded]
+  
+  [Silence Flags]
+  Info:  ===Silence Flags ====================================
+  [Succeeded]
+  
+  [Silence Processing]
+  Info:  ===Silence Processing ====================================
+  [Succeeded]
+  
+  [Parameters Flush (no Buffer)]
+  Info:  ===Parameters Flush (no Buffer) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (only numChannel==0)]
+  Info:  ===Parameters Flush 2 (only numChannel==0) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (no Buffer, no parameter change)]
+  Info:  ===Parameters Flush 2 (no Buffer, no parameter change) ====================================
+  [Succeeded]
+  
+  [Variable Block Size]
+  Info:  ===Variable Block Size ====================================
+  [Succeeded]
+  
+  [Process Format]
+  Info:  ===Process Format ====================================
+  Info:  ***Tested Sample Rates***
+  Info:        22050 Hz - processed successfully!
+  Info:        32000 Hz - processed successfully!
+  Info:        44100 Hz - processed successfully!
+  Info:        48000 Hz - processed successfully!
+  Info:        88200 Hz - processed successfully!
+  Info:        96000 Hz - processed successfully!
+  Info:       192000 Hz - processed successfully!
+  Info:       384000 Hz - processed successfully!
+  Info:    1234.5678 Hz - processed successfully!
+  Info:    12345.678 Hz - processed successfully!
+  Info:    123456.78 Hz - processed successfully!
+  Info:    1234567.8 Hz - processed successfully!
+  [Succeeded]
+  
+  [Parameter Bypass persistence]
+  Info:  ===Parameter Bypass persistence ====================================
+  [Succeeded]
+  
+  [In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+  Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+  [Succeeded]
+  
+  [In: Mono: 1 Channels, Out: Mono: 1 Channels]
+  Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+  [Succeeded]
+  
+  [Accuracy: Block, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Block, 1 Parameters, Change every100 Samples ====================================
+  [Succeeded]
+  
+  [Accuracy: Sample, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Sample, 1 Parameters, Change every100 Samples ====================================
+  Info:     Not all points have been read via IParameterChanges
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : Double Precision (64 bit) Tests
+  -------------------------------------------------------------
+  
+  [Process Test]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Process function running in another thread]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Silence Flags]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Silence Processing]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Parameters Flush (no Buffer)]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Parameters Flush 2 (only numChannel==0)]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Parameters Flush 2 (no Buffer, no parameter change)]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Variable Block Size]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Process Format]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Parameter Bypass persistence]
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+  Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [In: Mono: 1 Channels, Out: Mono: 1 Channels]
+  Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Accuracy: Block, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Block, 1 Parameters, Change every100 Samples ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  [Accuracy: Sample, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Sample, 1 Parameters, Change every100 Samples ====================================
+  Info:  64bit Audio Processing not supported.
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  Result: 47 tests passed, 0 tests failed
+  -------------------------------------------------------------
+  symbolic link created for C:\Program Files\Common Files\VST3\noteexpressiontext.vst3 <<===>> D:\VSTPlugins2019\vst3sdk\vstbuild\VST3\Release\noteexpressiontext.vst3

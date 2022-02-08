@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/VSTPlugins2019/vst3sdk/vst3sdk/public.sdk/samples/vst-hosting/editorhost/CMakeLists.txt
+  plugprovider.cpp
+  editorhost.cpp
+  usediids.cpp
+  platform.cpp
+  window.cpp
+  module_win32.cpp
+  editorhost.vcxproj -> D:\VSTPlugins2019\vst3sdk\vstbuild\bin\Debug\editorhost.exe

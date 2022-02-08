@@ -1,0 +1,86 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WPFExampleGUIKnobs/1.0.0": {
+        "dependencies": {
+          "AudioPlugSharp": "1.0.0",
+          "AudioPlugSharpWPF": "1.0.0",
+          "DialMgr": "1.0.0",
+          "RotaryControl": "1.0.0",
+          "WpfEditorView": "1.0.0"
+        },
+        "runtime": {
+          "WPFExampleGUIKnobs.dll": {}
+        }
+      },
+      "AudioPlugSharp/1.0.0": {
+        "runtime": {
+          "AudioPlugSharp.dll": {}
+        }
+      },
+      "AudioPlugSharpWPF/1.0.0": {
+        "dependencies": {
+          "AudioPlugSharp": "1.0.0"
+        },
+        "runtime": {
+          "AudioPlugSharpWPF.dll": {}
+        }
+      },
+      "DialMgr/1.0.0": {
+        "dependencies": {
+          "RotaryControl": "1.0.0"
+        },
+        "runtime": {
+          "DialMgr.dll": {}
+        }
+      },
+      "RotaryControl/1.0.0": {
+        "runtime": {
+          "RotaryControl.dll": {}
+        }
+      },
+      "WpfEditorView/1.0.0": {
+        "runtime": {
+          "WpfEditorView.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPFExampleGUIKnobs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AudioPlugSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AudioPlugSharpWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DialMgr/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RotaryControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WpfEditorView/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

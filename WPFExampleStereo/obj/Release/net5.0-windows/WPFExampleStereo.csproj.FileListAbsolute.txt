@@ -1,0 +1,17 @@
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\bin\Release\net5.0-windows\WPFExampleStereo.deps.json
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\bin\Release\net5.0-windows\WPFExampleStereo.dll
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\bin\Release\net5.0-windows\ref\WPFExampleStereo.dll
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\bin\Release\net5.0-windows\WPFExampleStereo.pdb
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\bin\Release\net5.0-windows\AudioPlugSharp.dll
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\bin\Release\net5.0-windows\AudioPlugSharpWPF.dll
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\bin\Release\net5.0-windows\AudioPlugSharpWPF.pdb
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\bin\Release\net5.0-windows\AudioPlugSharp.pdb
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\obj\Release\net5.0-windows\WPFExampleStereo.csproj.AssemblyReference.cache
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\obj\Release\net5.0-windows\WPFExampleStereo.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\obj\Release\net5.0-windows\WPFExampleStereo.AssemblyInfoInputs.cache
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\obj\Release\net5.0-windows\WPFExampleStereo.AssemblyInfo.cs
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\obj\Release\net5.0-windows\WPFExampleStereo.csproj.CoreCompileInputs.cache
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\obj\Release\net5.0-windows\WPFExampleStereo.csproj.CopyComplete
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\obj\Release\net5.0-windows\WPFExampleStereo.dll
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\obj\Release\net5.0-windows\ref\WPFExampleStereo.dll
+D:\VSTPlugins2019\vst3sdkRev\WPFExampleStereo\obj\Release\net5.0-windows\WPFExampleStereo.pdb

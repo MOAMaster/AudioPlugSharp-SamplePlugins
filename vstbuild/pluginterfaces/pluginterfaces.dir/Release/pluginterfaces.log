@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/VSTPlugins2019/vst3sdk/vst3sdk/pluginterfaces/CMakeLists.txt
+  conststringtable.cpp
+  coreiids.cpp
+  funknown.cpp
+  ustring.cpp
+  pluginterfaces.vcxproj -> D:\VSTPlugins2019\vst3sdk\vstbuild\lib\Release\pluginterfaces.lib

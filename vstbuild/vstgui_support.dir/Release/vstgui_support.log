@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/VSTPlugins2019/vst3sdk/vst3sdk/CMakeLists.txt
+  vst3groupcontroller.cpp
+  vst3padcontroller.cpp
+  vst3editor.cpp
+  vstguieditor.cpp
+  vstgui_win32_bundle_support.cpp
+  vstgui_support.vcxproj -> D:\VSTPlugins2019\vst3sdk\vstbuild\lib\Release\vstgui_support.lib

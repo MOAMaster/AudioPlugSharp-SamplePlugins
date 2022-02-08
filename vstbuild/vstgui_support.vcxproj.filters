@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\vstgui4\vstgui\plugin-bindings\vst3groupcontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\vstgui4\vstgui\plugin-bindings\vst3padcontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\vstgui4\vstgui\plugin-bindings\vst3editor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\vst\vstguieditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\vst\vstgui_win32_bundle_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\vstgui4\vstgui\plugin-bindings\vst3groupcontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\vstgui4\vstgui\plugin-bindings\vst3padcontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\vstgui4\vstgui\plugin-bindings\vst3editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\vst\vstgui_win32_bundle_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B13CB634-CCD1-314C-BEC9-E77E403BD3F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CAF147CE-76EC-35D5-806D-A82C8E40FC81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

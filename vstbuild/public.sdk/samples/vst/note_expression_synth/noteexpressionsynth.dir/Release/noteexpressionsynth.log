@@ -1,0 +1,638 @@
+﻿  Building Custom Rule D:/VSTPlugins2019/vst3sdk/vst3sdk/public.sdk/samples/vst/note_expression_synth/CMakeLists.txt
+  factory.cpp
+  note_expression_synth_controller.cpp
+  note_expression_synth_processor.cpp
+  note_expression_synth_ui.cpp
+  note_expression_synth_voice.cpp
+  note_touch_controller.cpp
+  keyboardview.cpp
+  dllmain.cpp
+     Creating library D:/VSTPlugins2019/vst3sdk/vstbuild/lib/Release/noteexpressionsynth.lib and object D:/VSTPlugins2019/vst3sdk/vstbuild/lib/Release/noteexpressionsynth.exp
+  noteexpressionsynth.vcxproj -> D:\VSTPlugins2019\vst3sdk\vstbuild\VST3\Release\noteexpressionsynth.vst3\Contents\x86_64-win\noteexpressionsynth.vst3
+  * Loading module...
+  
+  	D:/VSTPlugins2019/vst3sdk/vstbuild/VST3/Release/noteexpressionsynth.vst3/Contents/x86_64-win/noteexpressionsynth.vst3
+  
+  * Scanning classes...
+  
+    Factory Info:
+  	vendor = Steinberg Media Technologies
+  	url = http://www.steinberg.net
+  	email = mailto:info@steinberg.de
+  
+    Class Info 0:
+  	name = Note Expression Synth With UI
+  	category = Audio Module Class
+  	subCategories = Instrument|Synth
+  	version = 1.0.0.0
+  	sdkVersion = VST 3.7.1
+  	cid = 41466D9BB0654576B641098F686371B3
+  
+    Class Info 1:
+  	name = Note Expression Synth With UI
+  	category = Component Controller Class
+  	subCategories = 
+  	version = 1.0.0.0
+  	sdkVersion = VST 3.7.1
+  	cid = 1AA302B3E8384785B9C3FE3E08B056F5
+  
+    Class Info 2:
+  	name = Note Expression Synth
+  	category = Audio Module Class
+  	subCategories = Instrument|Synth
+  	version = 1.0.0.0
+  	sdkVersion = VST 3.7.1
+  	cid = 6EE65CD1B83A4AF480AA7929AEA6B8A0
+  
+    Class Info 3:
+  	name = Note Expression Synth
+  	category = Component Controller Class
+  	subCategories = 
+  	version = 1.0.0.0
+  	sdkVersion = VST 3.7.1
+  	cid = 2AC0A8889406497FBBA6EABFC78D1372
+  
+  * Checking snapshots...
+  
+EXEC : warning : No snapshots in Bundle.
+  
+  * Creating tests...
+  
+  * Running tests...
+  
+  -------------------------------------------------------------
+  TestSuite : Note Expression Synth With UI
+  -------------------------------------------------------------
+  
+  -------------------------------------------------------------
+  TestSuite : General Tests
+  -------------------------------------------------------------
+  
+  [Scan Editor Classes]
+  Info:  ===Scan Editor Classes ====================================
+  Info:  This component has an edit controller class
+  Info:     Controller CID: {1AA302B3-E838-4785-B9C3-FE3E08B056F5}
+  [Succeeded]
+  
+  [Scan Buses]
+  Info:  ===Scan Buses ====================================
+  Info:  => Audio Buses: [0 In(s) => 1 Out(s)]
+  Info:       Out[0]: "Audio Output" (Main-Default Active) 
+  Info:  => Event Buses: [1 In(s) => 0 Out(s)]
+  Info:       In [0]: "Event Input" (Main-Default Active) 
+  [Succeeded]
+  
+  [Scan Parameters]
+  Info:  ===Scan Parameters ====================================
+  Info:  This component exports 18 parameter(s)
+  Info:     Parameter 000 (id=10): [title="Master Volume"] [unit="%"] [type = F, default = 0.800000, unit = 0]
+  Info:     Parameter 001 (id=11): [title="Master Tuning"] [unit="cent"] [type = F, default = 0.500000, unit = 0]
+  Info:     Parameter 002 (id=12): [title="Velocity To Level"] [unit="%"] [type = F, default = 1.000000, unit = 0]
+  Info:     Parameter 003 (id=0): [title="Release Time"] [unit="sec"] [type = F, default = 0.004004, unit = 0]
+  Info:     Parameter 004 (id=1): [title="Noise Volume"] [unit="%"] [type = F, default = 0.000000, unit = 0]
+  Info:     Parameter 005 (id=2): [title="Sinus Volume"] [unit="%"] [type = F, default = 0.800000, unit = 0]
+  Info:     Parameter 006 (id=3): [title="Triangle Volume"] [unit="%"] [type = F, default = 0.200000, unit = 0]
+  Info:     Parameter 007 (id=16): [title="Square Volume"] [unit="%"] [type = F, default = 0.800000, unit = 0]
+  Info:     Parameter 008 (id=4): [title="Sinus Detune"] [unit="cent"] [type = F, default = 0.500000, unit = 0]
+  Info:     Parameter 009 (id=6): [title="Triangle Slop"] [unit="%"] [type = F, default = 0.500000, unit = 0]
+  Info:     Parameter 010 (id=7): [title="Filter Type"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  Info:     Parameter 011 (id=8): [title="Filter Frequency"] [unit=""] [type = F, default = 0.000000, unit = 0]
+  Info:     Parameter 012 (id=13): [title="Frequency Mod Depth"] [unit="%"] [type = F, default = 1.000000, unit = 0]
+  Info:     Parameter 013 (id=9): [title="Filter Q"] [unit=""] [type = F, default = 0.000000, unit = 0]
+  Info:     Parameter 014 (id=5): [title="Bypass SNA"] [unit=""] [type = T, default = 0.000000, unit = 0]
+  Info:     Parameter 015 (id=15): [title="Active Voices"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  Info:     Parameter 016 (id=14): [title="Tuning Range"] [unit=""] [type = T, default = 0.000000, unit = 0]
+  Info:     Parameter 017 (id=17): [title="MIDI Learn"] [unit=""] [type = T, default = 0.000000, unit = 0]
+  Info:  No bypass parameter found. This is an instrument.
+  [Succeeded]
+  
+  [MIDI Mapping]
+  Info:  ===MIDI Mapping ====================================
+  [Succeeded]
+  
+  [MIDI Learn]
+  Info:  ===MIDI Learn ====================================
+  Info:  onLiveMIDIControllerInput do not return kResultTrue!
+  Info:  onLiveMIDIControllerInput do not return kResultTrue!
+  [Succeeded]
+  
+  [Scan Units]
+  Info:  ===Scan Units ====================================
+  Info:  This component has no units.
+  [Succeeded]
+  
+  [Scan Programs]
+  Info:  ===Scan Programs ====================================
+  Info:  This component does not export any programs.
+  [Succeeded]
+  
+  [Terminate/Initialize]
+  Info:  ===Terminate/Initialize ====================================
+  [Succeeded]
+  
+  [Check Unit Structure]
+  Info:  ===Check Unit Structure ====================================
+  Info:  This component does not support IUnitInfo!
+  [Succeeded]
+  
+  [Valid State Transition 32bits]
+  Info:  ===Valid State Transition 32bits ====================================
+  [Succeeded]
+  
+  [Valid State Transition 64bits]
+  Info:  ===Valid State Transition 64bits ====================================
+  [Succeeded]
+  
+  [Bus Consistency]
+  Info:  ===Bus Consistency ====================================
+  [Succeeded]
+  
+  [Bus Activation]
+  Info:  ===Bus Activation ====================================
+  Info:     Bus Activation: Output Audio Bus (0) (kMain)
+  Info:     Bus Activation: Input Event Bus (0) (kMain)
+  [Succeeded]
+  
+  [Check Audio Bus Arrangement]
+  Info:  ===Check Audio Bus Arrangement ====================================
+  Info:     Check Output Audio Bus Arrangement (0)
+  [Succeeded]
+  
+  [SideChain Arrangement]
+  Info:  ===SideChain Arrangement ====================================
+  [Succeeded]
+  
+  [Suspend/Resume]
+  Info:  ===Suspend/Resume ====================================
+  [Succeeded]
+  
+  [Note Expression]
+  Info:  ===Note Expression ====================================
+  Info:  Note Expression count bus[0], channel[0]: 12
+  Info:  Note Expression TypeID: 0 [Volume]
+  Info:  Note Expression TypeID: 1 [Pan]
+  Info:  Note Expression TypeID: 2 [Tuning]
+  Info:  Note Expression TypeID: 100003 [Sinus Volume]
+  Info:  Note Expression TypeID: 100007 [Sinus Detune]
+  Info:  Note Expression TypeID: 100004 [Triangle Volume]
+  Info:  Note Expression TypeID: 100010 [Square Volume]
+  Info:  Note Expression TypeID: 100000 [Noise Volume]
+  Info:  Note Expression TypeID: 100001 [Filter Frequency Modulation]
+  Info:  Note Expression TypeID: 100002 [Filter Q Modulation]
+  Info:  Note Expression TypeID: 100005 [Filter Type]
+  Info:  Note Expression TypeID: 100008 [Release Time]
+  Info:  Note Expression PhysicalUIMapping: 2 => 0
+  Info:  Note Expression PhysicalUIMapping: 100001 => 1
+  Info:  Note Expression PhysicalUIMapping: 0 => 2
+  [Succeeded]
+  
+  [Keyswitch]
+  Info:  ===Keyswitch ====================================
+  Info:  No Keyswitch interface supplied!
+  [Succeeded]
+  
+  [ProcessContext Requirements]
+  Info:  ===ProcessContext Requirements ====================================
+  Info:  ProcessContextRequirements:
+  Info:   - None
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : Single Precision (32 bit) Tests
+  -------------------------------------------------------------
+  
+  [Process Test]
+  [Succeeded]
+  
+  [Process function running in another thread]
+  Info:  ===Process function running in another thread ====================================
+  [Succeeded]
+  
+  [Silence Flags]
+  Info:  ===Silence Flags ====================================
+  [Succeeded]
+  
+  [Silence Processing]
+  Info:  ===Silence Processing ====================================
+  [Succeeded]
+  
+  [Parameters Flush (no Buffer)]
+  Info:  ===Parameters Flush (no Buffer) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (only numChannel==0)]
+  Info:  ===Parameters Flush 2 (only numChannel==0) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (no Buffer, no parameter change)]
+  Info:  ===Parameters Flush 2 (no Buffer, no parameter change) ====================================
+  [Succeeded]
+  
+  [Variable Block Size]
+  Info:  ===Variable Block Size ====================================
+  [Succeeded]
+  
+  [Process Format]
+  Info:  ===Process Format ====================================
+  Info:  ***Tested Sample Rates***
+  Info:        22050 Hz - processed successfully!
+  Info:        32000 Hz - processed successfully!
+  Info:        44100 Hz - processed successfully!
+  Info:        48000 Hz - processed successfully!
+  Info:        88200 Hz - processed successfully!
+  Info:        96000 Hz - processed successfully!
+  Info:       192000 Hz - processed successfully!
+  Info:       384000 Hz - processed successfully!
+  Info:    1234.5678 Hz - processed successfully!
+  Info:    12345.678 Hz - processed successfully!
+  Info:    123456.78 Hz - processed successfully!
+  Info:    1234567.8 Hz - processed successfully!
+  [Succeeded]
+  
+  [Parameter Bypass persistence]
+  Info:  ===Parameter Bypass persistence ====================================
+  Info:  This plugin does not have a bypass parameter!!!
+  [Succeeded]
+  
+  [In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+  Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+  [Succeeded]
+  
+  [In: Mono: 1 Channels, Out: Mono: 1 Channels]
+  Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+  Info:      Mono Output-SpeakerArrangement is not supported. Plug-in suggests: Stereo.
+  [Succeeded]
+  
+  [Accuracy: Block, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Block, 1 Parameters, Change every100 Samples ====================================
+  [Succeeded]
+  
+  [Accuracy: Sample, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Sample, 1 Parameters, Change every100 Samples ====================================
+  Info:     Not all points have been read via IParameterChanges
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : Double Precision (64 bit) Tests
+  -------------------------------------------------------------
+  
+  [Process Test]
+  [Succeeded]
+  
+  [Process function running in another thread]
+  Info:  ===Process function running in another thread ====================================
+  [Succeeded]
+  
+  [Silence Flags]
+  Info:  ===Silence Flags ====================================
+  [Succeeded]
+  
+  [Silence Processing]
+  Info:  ===Silence Processing ====================================
+  [Succeeded]
+  
+  [Parameters Flush (no Buffer)]
+  Info:  ===Parameters Flush (no Buffer) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (only numChannel==0)]
+  Info:  ===Parameters Flush 2 (only numChannel==0) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (no Buffer, no parameter change)]
+  Info:  ===Parameters Flush 2 (no Buffer, no parameter change) ====================================
+  [Succeeded]
+  
+  [Variable Block Size]
+  Info:  ===Variable Block Size ====================================
+  [Succeeded]
+  
+  [Process Format]
+  Info:  ===Process Format ====================================
+  Info:  ***Tested Sample Rates***
+  Info:        22050 Hz - processed successfully!
+  Info:        32000 Hz - processed successfully!
+  Info:        44100 Hz - processed successfully!
+  Info:        48000 Hz - processed successfully!
+  Info:        88200 Hz - processed successfully!
+  Info:        96000 Hz - processed successfully!
+  Info:       192000 Hz - processed successfully!
+  Info:       384000 Hz - processed successfully!
+  Info:    1234.5678 Hz - processed successfully!
+  Info:    12345.678 Hz - processed successfully!
+  Info:    123456.78 Hz - processed successfully!
+  Info:    1234567.8 Hz - processed successfully!
+  [Succeeded]
+  
+  [Parameter Bypass persistence]
+  Info:  ===Parameter Bypass persistence ====================================
+  Info:  This plugin does not have a bypass parameter!!!
+  [Succeeded]
+  
+  [In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+  Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+  [Succeeded]
+  
+  [In: Mono: 1 Channels, Out: Mono: 1 Channels]
+  Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+  Info:      Mono Output-SpeakerArrangement is not supported. Plug-in suggests: Stereo.
+  [Succeeded]
+  
+  [Accuracy: Block, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Block, 1 Parameters, Change every100 Samples ====================================
+  [Succeeded]
+  
+  [Accuracy: Sample, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Sample, 1 Parameters, Change every100 Samples ====================================
+  Info:     Not all points have been read via IParameterChanges
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : Note Expression Synth
+  -------------------------------------------------------------
+  
+  -------------------------------------------------------------
+  TestSuite : General Tests
+  -------------------------------------------------------------
+  
+  [Scan Editor Classes]
+  Info:  ===Scan Editor Classes ====================================
+  Info:  This component has an edit controller class
+  Info:     Controller CID: {2AC0A888-9406-497F-BBA6-EABFC78D1372}
+  [Succeeded]
+  
+  [Scan Buses]
+  Info:  ===Scan Buses ====================================
+  Info:  => Audio Buses: [0 In(s) => 1 Out(s)]
+  Info:       Out[0]: "Audio Output" (Main-Default Active) 
+  Info:  => Event Buses: [1 In(s) => 0 Out(s)]
+  Info:       In [0]: "Event Input" (Main-Default Active) 
+  [Succeeded]
+  
+  [Scan Parameters]
+  Info:  ===Scan Parameters ====================================
+  Info:  This component exports 17 parameter(s)
+  Info:     Parameter 000 (id=10): [title="Master Volume"] [unit="%"] [type = F, default = 0.800000, unit = 0]
+  Info:     Parameter 001 (id=11): [title="Master Tuning"] [unit="cent"] [type = F, default = 0.500000, unit = 0]
+  Info:     Parameter 002 (id=12): [title="Velocity To Level"] [unit="%"] [type = F, default = 1.000000, unit = 0]
+  Info:     Parameter 003 (id=0): [title="Release Time"] [unit="sec"] [type = F, default = 0.004004, unit = 0]
+  Info:     Parameter 004 (id=1): [title="Noise Volume"] [unit="%"] [type = F, default = 0.000000, unit = 0]
+  Info:     Parameter 005 (id=2): [title="Sinus Volume"] [unit="%"] [type = F, default = 0.800000, unit = 0]
+  Info:     Parameter 006 (id=3): [title="Triangle Volume"] [unit="%"] [type = F, default = 0.200000, unit = 0]
+  Info:     Parameter 007 (id=16): [title="Square Volume"] [unit="%"] [type = F, default = 0.800000, unit = 0]
+  Info:     Parameter 008 (id=4): [title="Sinus Detune"] [unit="cent"] [type = F, default = 0.500000, unit = 0]
+  Info:     Parameter 009 (id=6): [title="Triangle Slop"] [unit="%"] [type = F, default = 0.500000, unit = 0]
+  Info:     Parameter 010 (id=7): [title="Filter Type"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  Info:     Parameter 011 (id=8): [title="Filter Frequency"] [unit=""] [type = F, default = 0.000000, unit = 0]
+  Info:     Parameter 012 (id=13): [title="Frequency Mod Depth"] [unit="%"] [type = F, default = 1.000000, unit = 0]
+  Info:     Parameter 013 (id=9): [title="Filter Q"] [unit=""] [type = F, default = 0.000000, unit = 0]
+  Info:     Parameter 014 (id=5): [title="Bypass SNA"] [unit=""] [type = T, default = 0.000000, unit = 0]
+  Info:     Parameter 015 (id=15): [title="Active Voices"] [unit=""] [type = D, default = 0.000000, unit = 0]
+  Info:     Parameter 016 (id=14): [title="Tuning Range"] [unit=""] [type = T, default = 0.000000, unit = 0]
+  Info:  No bypass parameter found. This is an instrument.
+  [Succeeded]
+  
+  [MIDI Mapping]
+  Info:  ===MIDI Mapping ====================================
+  [Succeeded]
+  
+  [MIDI Learn]
+  Info:  ===MIDI Learn ====================================
+  Info:  No MIDI Learn interface supplied!
+  [Succeeded]
+  
+  [Scan Units]
+  Info:  ===Scan Units ====================================
+  Info:  This component has no units.
+  [Succeeded]
+  
+  [Scan Programs]
+  Info:  ===Scan Programs ====================================
+  Info:  This component does not export any programs.
+  [Succeeded]
+  
+  [Terminate/Initialize]
+  Info:  ===Terminate/Initialize ====================================
+  [Succeeded]
+  
+  [Check Unit Structure]
+  Info:  ===Check Unit Structure ====================================
+  Info:  This component does not support IUnitInfo!
+  [Succeeded]
+  
+  [Valid State Transition 32bits]
+  Info:  ===Valid State Transition 32bits ====================================
+  [Succeeded]
+  
+  [Valid State Transition 64bits]
+  Info:  ===Valid State Transition 64bits ====================================
+  [Succeeded]
+  
+  [Bus Consistency]
+  Info:  ===Bus Consistency ====================================
+  [Succeeded]
+  
+  [Bus Activation]
+  Info:  ===Bus Activation ====================================
+  Info:     Bus Activation: Output Audio Bus (0) (kMain)
+  Info:     Bus Activation: Input Event Bus (0) (kMain)
+  [Succeeded]
+  
+  [Check Audio Bus Arrangement]
+  Info:  ===Check Audio Bus Arrangement ====================================
+  Info:     Check Output Audio Bus Arrangement (0)
+  [Succeeded]
+  
+  [SideChain Arrangement]
+  Info:  ===SideChain Arrangement ====================================
+  [Succeeded]
+  
+  [Suspend/Resume]
+  Info:  ===Suspend/Resume ====================================
+  [Succeeded]
+  
+  [Note Expression]
+  Info:  ===Note Expression ====================================
+  Info:  Note Expression count bus[0], channel[0]: 12
+  Info:  Note Expression TypeID: 0 [Volume]
+  Info:  Note Expression TypeID: 1 [Pan]
+  Info:  Note Expression TypeID: 2 [Tuning]
+  Info:  Note Expression TypeID: 100003 [Sinus Volume]
+  Info:  Note Expression TypeID: 100007 [Sinus Detune]
+  Info:  Note Expression TypeID: 100004 [Triangle Volume]
+  Info:  Note Expression TypeID: 100010 [Square Volume]
+  Info:  Note Expression TypeID: 100000 [Noise Volume]
+  Info:  Note Expression TypeID: 100001 [Filter Frequency Modulation]
+  Info:  Note Expression TypeID: 100002 [Filter Q Modulation]
+  Info:  Note Expression TypeID: 100005 [Filter Type]
+  Info:  Note Expression TypeID: 100008 [Release Time]
+  Info:  Note Expression PhysicalUIMapping: 2 => 0
+  Info:  Note Expression PhysicalUIMapping: 100001 => 1
+  Info:  Note Expression PhysicalUIMapping: 0 => 2
+  [Succeeded]
+  
+  [Keyswitch]
+  Info:  ===Keyswitch ====================================
+  Info:  No Keyswitch interface supplied!
+  [Succeeded]
+  
+  [ProcessContext Requirements]
+  Info:  ===ProcessContext Requirements ====================================
+  Info:  ProcessContextRequirements:
+  Info:   - None
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : Single Precision (32 bit) Tests
+  -------------------------------------------------------------
+  
+  [Process Test]
+  [Succeeded]
+  
+  [Process function running in another thread]
+  Info:  ===Process function running in another thread ====================================
+  [Succeeded]
+  
+  [Silence Flags]
+  Info:  ===Silence Flags ====================================
+  [Succeeded]
+  
+  [Silence Processing]
+  Info:  ===Silence Processing ====================================
+  [Succeeded]
+  
+  [Parameters Flush (no Buffer)]
+  Info:  ===Parameters Flush (no Buffer) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (only numChannel==0)]
+  Info:  ===Parameters Flush 2 (only numChannel==0) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (no Buffer, no parameter change)]
+  Info:  ===Parameters Flush 2 (no Buffer, no parameter change) ====================================
+  [Succeeded]
+  
+  [Variable Block Size]
+  Info:  ===Variable Block Size ====================================
+  [Succeeded]
+  
+  [Process Format]
+  Info:  ===Process Format ====================================
+  Info:  ***Tested Sample Rates***
+  Info:        22050 Hz - processed successfully!
+  Info:        32000 Hz - processed successfully!
+  Info:        44100 Hz - processed successfully!
+  Info:        48000 Hz - processed successfully!
+  Info:        88200 Hz - processed successfully!
+  Info:        96000 Hz - processed successfully!
+  Info:       192000 Hz - processed successfully!
+  Info:       384000 Hz - processed successfully!
+  Info:    1234.5678 Hz - processed successfully!
+  Info:    12345.678 Hz - processed successfully!
+  Info:    123456.78 Hz - processed successfully!
+  Info:    1234567.8 Hz - processed successfully!
+  [Succeeded]
+  
+  [Parameter Bypass persistence]
+  Info:  ===Parameter Bypass persistence ====================================
+  Info:  This plugin does not have a bypass parameter!!!
+  [Succeeded]
+  
+  [In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+  Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+  [Succeeded]
+  
+  [In: Mono: 1 Channels, Out: Mono: 1 Channels]
+  Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+  Info:      Mono Output-SpeakerArrangement is not supported. Plug-in suggests: Stereo.
+  [Succeeded]
+  
+  [Accuracy: Block, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Block, 1 Parameters, Change every100 Samples ====================================
+  [Succeeded]
+  
+  [Accuracy: Sample, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Sample, 1 Parameters, Change every100 Samples ====================================
+  Info:     Not all points have been read via IParameterChanges
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  TestSuite : Double Precision (64 bit) Tests
+  -------------------------------------------------------------
+  
+  [Process Test]
+  [Succeeded]
+  
+  [Process function running in another thread]
+  Info:  ===Process function running in another thread ====================================
+  [Succeeded]
+  
+  [Silence Flags]
+  Info:  ===Silence Flags ====================================
+  [Succeeded]
+  
+  [Silence Processing]
+  Info:  ===Silence Processing ====================================
+  [Succeeded]
+  
+  [Parameters Flush (no Buffer)]
+  Info:  ===Parameters Flush (no Buffer) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (only numChannel==0)]
+  Info:  ===Parameters Flush 2 (only numChannel==0) ====================================
+  [Succeeded]
+  
+  [Parameters Flush 2 (no Buffer, no parameter change)]
+  Info:  ===Parameters Flush 2 (no Buffer, no parameter change) ====================================
+  [Succeeded]
+  
+  [Variable Block Size]
+  Info:  ===Variable Block Size ====================================
+  [Succeeded]
+  
+  [Process Format]
+  Info:  ===Process Format ====================================
+  Info:  ***Tested Sample Rates***
+  Info:        22050 Hz - processed successfully!
+  Info:        32000 Hz - processed successfully!
+  Info:        44100 Hz - processed successfully!
+  Info:        48000 Hz - processed successfully!
+  Info:        88200 Hz - processed successfully!
+  Info:        96000 Hz - processed successfully!
+  Info:       192000 Hz - processed successfully!
+  Info:       384000 Hz - processed successfully!
+  Info:    1234.5678 Hz - processed successfully!
+  Info:    12345.678 Hz - processed successfully!
+  Info:    123456.78 Hz - processed successfully!
+  Info:    1234567.8 Hz - processed successfully!
+  [Succeeded]
+  
+  [Parameter Bypass persistence]
+  Info:  ===Parameter Bypass persistence ====================================
+  Info:  This plugin does not have a bypass parameter!!!
+  [Succeeded]
+  
+  [In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+  Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+  [Succeeded]
+  
+  [In: Mono: 1 Channels, Out: Mono: 1 Channels]
+  Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+  Info:      Mono Output-SpeakerArrangement is not supported. Plug-in suggests: Stereo.
+  [Succeeded]
+  
+  [Accuracy: Block, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Block, 1 Parameters, Change every100 Samples ====================================
+  [Succeeded]
+  
+  [Accuracy: Sample, 1 Parameters, Change every100 Samples]
+  Info:  ===Accuracy: Sample, 1 Parameters, Change every100 Samples ====================================
+  Info:     Not all points have been read via IParameterChanges
+  [Succeeded]
+  
+  -------------------------------------------------------------
+  Result: 94 tests passed, 0 tests failed
+  -------------------------------------------------------------
+  symbolic link created for C:\Program Files\Common Files\VST3\noteexpressionsynth.vst3 <<===>> D:\VSTPlugins2019\vst3sdk\vstbuild\VST3\Release\noteexpressionsynth.vst3

@@ -1,0 +1,13 @@
+﻿  Building Custom Rule D:/VSTPlugins2019/vst3sdk/vst3sdk/base/CMakeLists.txt
+  baseiids.cpp
+  fbuffer.cpp
+  fdebug.cpp
+  fdynlib.cpp
+  fobject.cpp
+  fstring.cpp
+  fstreamer.cpp
+  timer.cpp
+  updatehandler.cpp
+  fcondition.cpp
+  flock.cpp
+  base.vcxproj -> D:\VSTPlugins2019\vst3sdk\vstbuild\lib\Debug\base.lib

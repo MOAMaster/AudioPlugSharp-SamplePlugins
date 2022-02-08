@@ -1,0 +1,15 @@
+﻿  AudioPlugSharpHost.cpp
+  AudioPlugSharpProcessor.cpp
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharpVst\AudioPlugSharpProcessor.cpp(129,64): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharpVst\AudioPlugSharpProcessor.cpp(318,21): warning C4189: 'outParamChanges': local variable is initialized but not referenced
+  AudioPlugSharpController.cpp
+  AudioPlugSharpEntryPoints.cpp
+  AudioPlugSharpFactory.cpp
+  AudioPlugSharpParameter.cpp
+  AudioPlugSharpEditor.cpp
+D:\VSTPlugins2019\vst3sdkRev\AudioPlugSharpVst\AudioPlugSharpEditor.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  .NETCoreApp,Version=v5.0.AssemblyAttributes.cpp
+  Generating Code...
+  AudioPlugSharpHost.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+     Creating library D:\VSTPlugins2019\vst3sdkRev\x64\Release\AudioPlugSharpVst.lib and object D:\VSTPlugins2019\vst3sdkRev\x64\Release\AudioPlugSharpVst.exp
+  AudioPlugSharpVst.vcxproj -> D:\VSTPlugins2019\vst3sdkRev\x64\Release\AudioPlugSharpVst.vst3

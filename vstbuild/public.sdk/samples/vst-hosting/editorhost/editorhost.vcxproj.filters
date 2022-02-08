@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\vst\hosting\plugprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\editorhost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\usediids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\win32\platform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\win32\window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\vst\hosting\module_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\source\vst\hosting\plugprovider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\editorhost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\appinit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\iapplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\iplatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\iwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\win32\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VSTPlugins2019\vst3sdk\vst3sdk\public.sdk\samples\vst-hosting\editorhost\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B13CB634-CCD1-314C-BEC9-E77E403BD3F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CAF147CE-76EC-35D5-806D-A82C8E40FC81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
